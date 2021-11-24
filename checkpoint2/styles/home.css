@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+    font-family: 'Roboto', sans-serif;
+} 
+
+body{
+
+    background-image: url(../img/Gotham_City.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: #BBBFCA;
+    width: 100%;
+    
+}
+
+.main-header nav ul {
+    display: flex; 
+    gap: 30px ; 
+    list-style: none;  
+    justify-content: center;
+}
+
+.main-header ul li a {
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: none;
+    color: #495464;
+
+}
+
+.main-header nav ul h1{
+    font-weight: 400;
+    font-size: 30px;
+    color: #495464;
+}
+
+main h1 {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    color: #F4F4F2;
+}
+
+main {
+    text-align: center;
+}
+
+.main-article{
+    background-color: #C9CCD5;
+    border: 20px;
+    width: 900px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.main-article h1{
+    font-size: 26px;
+    text-align: center;
+    font-weight: 600;
+    color: #495464;
+
+}
+
+.main-article h2{
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 400;
+    text-align: center;
+    color: #495464;
+}
+
+.icons{
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.insta img{
+    width: 60px;
+}
+
+.facebook img{
+    width: 60px;
+}
