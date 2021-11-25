@@ -22,6 +22,10 @@ body{
 header{
     background-color: #BBBFCA;
     width: 100%;
+    position: fixed;
+    top:0px;
+    z-index: 1000;
+    height: 30px;
     
 }
 
@@ -30,6 +34,7 @@ header{
     gap: 30px ; 
     list-style: none;  
     justify-content: center;
+    align-items:center
 }
 
 .main-header ul li a {
@@ -37,6 +42,7 @@ header{
     font-size: 20px;
     text-decoration: none;
     color: #495464;
+    
 
 }
 
@@ -44,13 +50,14 @@ header{
     font-weight: 400;
     font-size: 30px;
     color: #495464;
+    flex-direction: row;
 }
 
 main h1 {
     font-size: 20px;
     text-align: center;
     padding: 10px;
-    margin-top: 15px;
+    margin-top: 30px;
     color: #F4F4F2;
 }
 
@@ -63,7 +70,8 @@ main {
     border: 20px;
     width: 900px;
     height: 150px;
-    margin: 0 auto;
+    margin: 20px auto 20px;
+    border-radius: 12px;
 }
 
 .main-article h1{
@@ -95,4 +103,16 @@ main {
 
 .facebook img{
     width: 60px;
+}
+
+.batman-icon img{
+    width: 90px;
+}
+
+.batman-icon{
+    position: fixed;
+    bottom:0px;
+    right: 10px;
+    z-index: 999;
+   
 }
