@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+    font-family: 'Roboto', sans-serif;
+} 
+
+body{
+
+    background-image: url(../img/Gotham_City.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: #BBBFCA;
+    width: 100%;
+    position: fixed;
+    top:0px;
+    z-index: 1000;
+    height: 30px;
+    
+}
+
+.main-header nav ul {
+    display: flex; 
+    gap: 30px ; 
+    list-style: none;  
+    justify-content: center;
+    align-items:center
+}
+
+.main-header ul li a {
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: none;
+    color: #495464;
+    
+
+}
+
+.main-header nav ul h1{
+    font-weight: 400;
+    font-size: 30px;
+    color: #495464;
+    flex-direction: row;
+}
+
+.batman-icon img{
+    width: 90px;
+}
+
+.batman-icon{
+    position: fixed;
+    bottom:0px;
+    right: 10px;
+    z-index: 999;
+   
+}
