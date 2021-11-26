@@ -53,6 +53,33 @@ header{
     flex-direction: row;
 }
 
+form {
+    background: #276778b7;
+    max-width: 60%;
+    margin: 100px auto;
+    padding: 10px 20px 20px;
+}
+
+form input, form label, form select {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+input.waiver-checkbox {
+    display: inline;
+}
+
+input.waiver-checkbox + label {
+    display: inline;
+    margin-left: 12px;
+}
+
+form div {
+    text-align: center;
+}
+
 .batman-icon img{
     width: 90px;
 }
