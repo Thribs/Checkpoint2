@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+@font-face {
+    font-family: batman ;
+    src: url(../font/batmfa__.ttf);
+}
 
 * {
     margin: 0;
@@ -52,6 +56,39 @@ header{
     color: #495464;
     flex-direction: row;
 }
+
+.batman {
+    font-family: batman;
+    color:#d80000;
+    font-size: 100px;
+    text-align: center;
+    padding: 30px;
+}
+
+.batman:hover {
+    color:#030000;  
+    font-weight: bolder;
+}
+
+.principal  div{
+    text-align: center;
+}
+
+article {
+    margin: 20px auto 0;
+    background-color: #950101c7;
+    width: 800px;
+    height: 190px;
+    border-radius: 6px;
+} 
+
+article h1{
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+
 
 .batman-icon img{
     width: 90px;

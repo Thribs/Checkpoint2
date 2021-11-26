@@ -66,7 +66,7 @@ header{
     background-color: #276778b7;
     display: block;
     width: 500px;
-    height: 700px;
+    height: 600px;
     margin: 20px auto 0;
     border-radius: 15px;
 }
@@ -114,6 +114,7 @@ textarea {
 
 .button-main{
     display: block;
+    text-align: center;
     
 }
 
