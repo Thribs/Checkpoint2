@@ -53,6 +53,58 @@ header{
     flex-direction: row;
 }
 
+form {
+    background: #276778b7;
+    max-width: 40%;
+    margin: 100px auto;
+    padding: 10px 30px;
+    color: white;
+}
+
+form input, form label, form select {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+input.waiver-checkbox {
+    display: inline;
+}
+
+input.waiver-checkbox:checked {
+    accent-color: yellow;
+    scale: 1.3;
+    transition: all 0.4s;
+}
+
+input.waiver-checkbox + label {
+    display: inline;
+    margin-left: 12px;
+}
+
+form div {
+    text-align: center;
+}
+
+form button {
+    padding: 4px 20px;
+}
+
+.reset-btn {
+    display: block;
+    border: none;
+    color: crimson;
+    margin: 0 auto;
+    background-color: transparent;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+form h2 {
+    text-align: center;
+}
+
 .batman-icon img{
     width: 90px;
 }
