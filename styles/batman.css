@@ -89,7 +89,6 @@ article h1{
 }
 
 
-
 .batman-icon img{
     width: 90px;
 }
@@ -100,4 +99,18 @@ article h1{
     right: 10px;
     z-index: 999;
    
+}
+
+.batman-icon{
+    position: fixed;
+    bottom:0px;
+    right: 10px;
+    z-index: 999;
+    transition: 1s;
+}
+
+.batman-icon:hover {
+    padding: 100px;
+    transform: scale(1.5);
+    filter: grayscale();
 }
